@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes track-marquee {
+  0%, 15% {
+    transform: translateX(0%);
+  }
+  85%, 100% {
+    transform: translateX(var(--scroll-offset, 0px));
+  }
+}
+
+.group:hover .animate-track-scroll {
+  animation: track-marquee 4.5s linear infinite alternate;
+}

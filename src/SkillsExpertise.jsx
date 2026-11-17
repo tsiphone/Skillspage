@@ -22,7 +22,7 @@ const SKILL_CATEGORIES = [
       { name: 'Character Design & Semi-Realistic Rendering', level: 96 },
       { name: 'Photoshop CS6 & Krita', level: 94 },
       { name: 'Custom AI LoRA Training (Kohya_ss & ComfyUI)', level: 92 },
-      { name: 'Sequential Comic Art & Visual Storytelling', level: 95 },
+      { name: 'Sequential Comic Art & Visual Storytelling', level: 98 },
     ],
   },
   {
@@ -32,9 +32,9 @@ const SKILL_CATEGORIES = [
     icon: Music,
     accent: 'sky',
     skills: [
-      { name: 'LMMS Studio & Electronic Production', level: 92 },
-      { name: 'Dark Ambient, Retrowave & Synth Composition', level: 94 },
-      { name: 'Synthesizers & VST Plugin Architecture', level: 88 },
+      { name: 'LMMS Studio & Electronic Production', level: 88 },
+      { name: 'Dark Ambient, Retrowave & Synth Composition', level: 90 },
+      { name: 'Synthesizers & VST Plugin Architecture', level: 80 },
       { name: 'Interactive OST & Atmospheric Soundscapes', level: 90 },
       { name: 'Generative AI Music Workflows', level: 86 },
     ],
@@ -46,11 +46,11 @@ const SKILL_CATEGORIES = [
     icon: Cpu,
     accent: 'sky',
     skills: [
-      { name: 'Python & Data Analytics Pipelines', level: 92 },
+      { name: 'Python & Data Analytics Pipelines', level: 75 },
       { name: 'JavaScript, React Vite, HTML5 & Tailwind CSS', level: 95 },
-      { name: 'SQL Databases & Data Modeling', level: 89 },
-      { name: 'Cisco Networking (VLANs, Routing, Switching, DHCP)', level: 91 },
-      { name: 'Linux (Debian/Ubuntu), C++, C# & Git Workflows', level: 88 },
+      { name: 'SQL Databases & Data Modeling', level: 75 },
+      { name: 'Cisco Networking (VLANs, Routing, Switching, DHCP)', level: 88 },
+      { name: 'Visual Basic, App Inventor, Kotlin, C++', level: 85 },
     ],
   },
   {
@@ -61,10 +61,10 @@ const SKILL_CATEGORIES = [
     accent: 'emerald',
     skills: [
       { name: 'Live2D Cubism Rigging & VTuber Creation', level: 94 },
-      { name: 'Blender 3D Modeling & Environment Rendering', level: 89 },
+      { name: 'Blender 3D Modeling & Environment Rendering', level: 85 },
       { name: 'ZBrush & Toon Boom Harmony', level: 86 },
-      { name: 'Unity3D, Unreal Engine 5 & Game Maker', level: 87 },
-      { name: 'Visual Novel & Interactive Web Ecosystems', level: 95 },
+      { name: 'Unity3D, Unreal Engine 5 & Game Maker', level: 85 },
+      { name: 'Visual Novel & Interactive Web Ecosystems', level: 99 },
     ],
   },
 ];
@@ -75,7 +75,7 @@ const CERTIFICATIONS = [
     issuer: 'CISCO NETWORKING ACADEMY',
     title: 'CCNA 1',
     subtitle: 'Introduction to Networks',
-    badgeImg: '/images/badges/ccna-1.png',
+    badgeImg: 'images/badges/ccna-1.png',
     accent: 'sky',
   },
   {
@@ -83,7 +83,7 @@ const CERTIFICATIONS = [
     issuer: 'CISCO NETWORKING ACADEMY',
     title: 'CCNA 2',
     subtitle: 'Switching, Routing & Wireless Essentials',
-    badgeImg: '/images/badges/ccna-2.png',
+    badgeImg: 'images/badges/ccna-2.png',
     accent: 'sky',
   },
   {
@@ -91,7 +91,7 @@ const CERTIFICATIONS = [
     issuer: 'CISCO NETWORKING ACADEMY',
     title: 'CCNA 3',
     subtitle: 'Enterprise Networking, Security & Automation',
-    badgeImg: '/images/badges/ccna-3.png',
+    badgeImg: 'images/badges/ccna-3.png',
     accent: 'emerald',
   },
   {
@@ -99,7 +99,7 @@ const CERTIFICATIONS = [
     issuer: 'MICROSOFT CERTIFIED',
     title: 'AZURE',
     subtitle: 'Cloud & AI Infrastructure Certification',
-    badgeImg: '/images/badges/azure.png',
+    badgeImg: 'images/badges/azure.png',
     accent: 'emerald',
   },
 ];

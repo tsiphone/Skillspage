@@ -176,7 +176,7 @@ export default function Storyteller() {
             transition={{ duration: 0.6 }}
           >
             <HologramPanel
-              src="/images/rain-main.jpg"
+              src="images/rain-main.jpg"
               alt="Rain walking in the rain with umbrella"
               placeholderLabel="IMAGEN PRINCIPAL // RAIN B&W"
               placeholderFile="rain-main.jpg"
@@ -199,7 +199,7 @@ export default function Storyteller() {
             className="lg:col-span-5"
           >
             <HologramPanel
-              src="/images/rain-comic-1.jpg"
+              src="images/rain-comic-1.jpg"
               alt="Storyteller Comic Panel 1"
               placeholderLabel="IMAGEN 1 // PANEL VERTICAL"
               placeholderFile="rain-comic-1.jpg"
@@ -218,7 +218,7 @@ export default function Storyteller() {
               className="flex-1"
             >
               <HologramPanel
-                src="/images/rain-comic-2.jpg"
+                src="images/rain-comic-2.jpg"
                 alt="Storyteller Comic Panel 2"
                 placeholderLabel="IMAGEN 2 // PANEL HORIZONTAL"
                 placeholderFile="rain-comic-2.jpg"
@@ -235,7 +235,7 @@ export default function Storyteller() {
               className="flex-1"
             >
               <HologramPanel
-                src="/images/rain-comic-3.jpg"
+                src="images/rain-comic-3.jpg"
                 alt="Storyteller Comic Panel 3"
                 placeholderLabel="IMAGEN 3 // PANEL HORIZONTAL"
                 placeholderFile="rain-comic-3.jpg"

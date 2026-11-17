@@ -213,7 +213,7 @@ export default function CurrentResearch() {
           >
             {!chibiError ? (
               <video
-                src="/images/chibi-walk.webm"
+                src="images/chibi-walk.webm"
                 autoPlay
                 loop
                 muted

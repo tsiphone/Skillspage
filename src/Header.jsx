@@ -7,25 +7,25 @@ const TRACKS = [
     id: '01',
     title: 'FROZEN_STAR // DARK_AMBIENT',
     duration: '02:43',
-    src: '/audio/frozenstar.mp3',
+    src: 'audio/frozenstar.mp3',
   },
   {
     id: '02',
     title: 'ETERNAL_NIGHT_OF_THE_NORTH',
     duration: '06:47',
-    src: '/audio/blackwitch.mp3',
+    src: 'audio/blackwitch.mp3',
   },
   {
     id: '03',
     title: 'BUCHERSAMMLUNG // DARK_AMBIENT',
     duration: '04:00',
-    src: '/audio/biblioteca.mp3',
+    src: 'audio/biblioteca.mp3',
   },
   {
     id: '04',
     title: 'SINS_OF_MANKIND // NOIR_SYNTH',
     duration: '02:42',
-    src: '/audio/sins.mp3',
+    src: 'audio/sins.mp3',
   },
 ];
 

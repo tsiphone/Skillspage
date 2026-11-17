@@ -85,7 +85,7 @@ export default function Hero() {
             <div className="relative my-3 aspect-[4/4] w-full bg-zinc-800/80 overflow-hidden border border-zinc-700/70">
               {!photoError ? (
                 <img
-                  src="/images/profile.jpg"
+                  src="images/profile.jpg"
                   alt="Amador Ulises Rosas García"
                   onError={() => setPhotoError(true)}
                   className="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 transition-all duration-500"
@@ -228,7 +228,7 @@ export default function Hero() {
             <div className="relative w-28 h-28 sm:w-32 sm:h-32 shrink-0 bg-zinc-900 border border-zinc-700 overflow-hidden">
               {!avatarError ? (
                 <img
-                  src="/images/vtuber-avatar.png"
+                  src="images/vtuber-avatar.png"
                   alt="Virtual VTuber Avatar"
                   onError={() => setAvatarError(true)}
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
